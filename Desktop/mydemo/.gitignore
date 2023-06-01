@@ -1,0 +1,93 @@
+# This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
+# If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
+# For useful gitignore templates see: https://github.com/github/gitignore
+
+# Salesforce cache
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+
+# LWC VSCode autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Eslint cache
+.eslintcache
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Local environment variables
+.env
+
+# Python Salesforce Functions
+**/__pycache__/
+**/.venv/
+**/venv/
+
+     ../../.bash_history
+        ../../.gitconfig
+        ../../.lemminx/
+        ../../.lesshst
+        ../../.node_repl_history
+        ../../.sf/
+        ../../.sfdx/
+        ../../.ssh/
+        ../../.vscode/
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ../
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../IntelGraphicsProfiles/
+        ../../JWTDEMO/
+        ../../Links/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{898236a0-685a-11ec-8858-14dda980d481}.TxR.0.regtrans-ms
+        ../../NTUSER.DAT{898236a0-685a-11ec-8858-14dda980d481}.TxR.1.regtrans-ms
+        ../../NTUSER.DAT{898236a0-685a-11ec-8858-14dda980d481}.TxR.2.regtrans-ms
+        ../../NTUSER.DAT{898236a0-685a-11ec-8858-14dda980d481}.TxR.blf
+        ../../NTUSER.DAT{898236a1-685a-11ec-8858-14dda980d481}.TM.blf
+        ../../NTUSER.DAT{898236a1-685a-11ec-8858-14dda980d481}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{898236a1-685a-11ec-8858-14dda980d481}.TMContainer00000000000000000002.regtrans-ms
+        ../../NTUSER.DAT{95f457a4-e3d5-11ec-8866-14dda980d481}.TxR.0.regtrans-ms
+        ../../NTUSER.DAT{95f457a4-e3d5-11ec-8866-14dda980d481}.TxR.1.regtrans-ms
+        ../../NTUSER.DAT{95f457a4-e3d5-11ec-8866-14dda980d481}.TxR.2.regtrans-ms
+        ../../NTUSER.DAT{95f457a4-e3d5-11ec-8866-14dda980d481}.TxR.blf
+        ../../NTUSER.DAT{95f457a5-e3d5-11ec-8866-14dda980d481}.TM.blf
+        ../../NTUSER.DAT{95f457a5-e3d5-11ec-8866-14dda980d481}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{95f457a5-e3d5-11ec-8866-14dda980d481}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+        ../../salesforce-ci-cd-org-dev/
+        ../../server.csr
+        ../../server.key
+        ../../server.pass.key
